@@ -26,6 +26,15 @@ At this point, you should open up your `analysis.R` script to begin working with
 - Do a bit of research. Find at least *two specific policies* that have been changed as a result of protests in 2020. These may be at the city, state, or University level. Please provide a basic summary, as well as a link to each article.
 - Take a look (`View()`) your `high_level_table` variable. What picture does this paint of the U.S.?
 
+## Critical Reflection
+Now that you have had time to work with the data and visualize it, I want you to practice thinking critically about the dataset we provided. An important part of data analysis is reflecting on the assumptions, limitations, and gaps in your datasets. Remember that all datasets have to make assumptions and not all assumptions are bad or unreasonable! Practicing these skill will help you in your career to be self critical and ethically alert.
+
+For this section, please write 2-3 sentences for each of the reflections below:
+
+- How was the dataset collected and who collected the data? 
+- What assumptions does the dataset make? List atleast two assumptions you identified. For inspiration, check out this [blog post](https://towardsdatascience.com/check-your-assumptions-about-your-data-20be250c143) that describes one method for identifying data assumptions.   
+- What data is missing from the dataset? Think about if there are any data points you would have liked to have seen in the dataset. 
+
 ## Final Thoughts
 When you are finished, with your analysis, please answer the following questions in 1-2 sentences each. 
 
