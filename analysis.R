@@ -90,9 +90,11 @@
 #
 #   1. The coding prompts are generally worth 1-3 points, depending on
 #      difficulty. As always, seek to write *correct* code and code that
-#      is *easy* to understand.
+#      is *easy* to understand. Total points: 65 points.
 #
-#   2. The reflective prompts are generally worth 1 or 2 points:
+#   2. The reflective prompts are generally worth 1 or 2 points. 
+#      Total points: 22 points.
+#      
 #         0 points: Not completed or poorly done.
 #         1 points: Completed and satisfactory.
 #         2 points: A concise, clear, thoughtful response, without spelling or
