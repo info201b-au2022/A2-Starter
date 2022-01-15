@@ -41,6 +41,8 @@ both files in RStudio and flip back and forth with the tabs.
 Keep point: In [analysis.R](analysis.R), write R code; in this file below,
 write in English.
 
+**Grading**. See [analysis.R](analysis.R).
+
 **Questions?** As always, please post on Teams or ask your Instructor or Teaching Assistant.
 
 :computer: Good coding!
