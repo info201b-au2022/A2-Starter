@@ -60,6 +60,8 @@
 # preparation for this assignment, please find and read *two* articles
 # about protests in the U.S.
 #
+# See (Article #1) and (Article #2) in README.md 
+#
 ## 3.0 About the Data ----
 # In this assignment, you will download data formatted in a CVS file
 # from Count Love.
@@ -141,7 +143,7 @@ sum_numbers <- sum(10,1,-2.5)
 # (1.d) Use an R function to determine how many how many values (also known
 # as attributes or features) have been recorded for each protest? `num_features`
 
-# (R.1a) In your own words, what is Count Love?
+# (R.1a) Reflection: In your own words, what is Count Love?
 
 ## Part 2: Attendees ------------------------------------------------------
 # In this part, you will explore the number of people who participated
@@ -290,11 +292,6 @@ sum_numbers <- sum(10,1,-2.5)
 # July 2019? You'll want to do this in multiple steps as you see fit, though
 # your answer should be stored in the variable `change_july_protests`.
 
-# (R.4b) Reflection: Do a bit of research. Find at least *two specific policies* that
-# have been changed as a result of protests in 2020. These may be at the
-# city, state, or University level. Please provide a basic summary, as well as a
-# link to each article.
-
 ## Part 5: Protest Purpose ------------------------------------------------
 # In this section, you will explore *why* the protests happened.
 
@@ -331,7 +328,7 @@ sum_numbers <- sum(10,1,-2.5)
 ## Part 7: Critical Thinking About Data  ----------------------------------
 #
 # (R7.a) Reflection: Recall that in the introduction, there were five dimensions for
-# critically thinking about the Count Love dataset. They were: (1) Goals;
+# critically thinking about the Count Love dataset and website. They were: (1) Goals;
 # (2) Human values; (3) Data sources; (4) Direct stakeholders; (5) Indirect
 # stakeholders; and (5) Benefits and harms.
 #
@@ -340,9 +337,8 @@ sum_numbers <- sum(10,1,-2.5)
 # uses and resists "power" to achieve its goals (D'lgnazio & Klein, 2020).
 #
 ## Part 8: Your Learning  -------------------------------------------------
-# (R.8a) Reflect on your work. What did you find most challenging? What do
-#        you consider the most important thing that you learned?
-# (R.8b) From your analysis of the Count Love dataset, what, if anything,
-#       surprised you?
-# (R.8c) What types of analysis do you wish you were able to do with the
+# (R.8a) Reflection. What did you find most challenging? What was 
+# the most interesting thing that you learned? What types of analysis do 
+# you wish you were able to do with the dataset, but currently don't 
+# have the technical skills? 
 #       dataset, but currently don’t have the technical skills to do?
