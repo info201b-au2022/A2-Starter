@@ -341,4 +341,3 @@ sum_numbers <- sum(10,1,-2.5)
 # the most interesting thing that you learned? What types of analysis do 
 # you wish you were able to do with the dataset, but currently don't 
 # have the technical skills? 
-#       dataset, but currently don’t have the technical skills to do?
