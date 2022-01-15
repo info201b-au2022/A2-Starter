@@ -96,9 +96,10 @@
 #         0 points: Not completed or poorly done.
 #         1 points: Completed and satisfactory.
 #         2 points: A concise, clear, thoughtful response, without spelling or
-#                   grammatical errors, with citations (if relevant), drawing
-#                   on Data Feminism (D'lgnazio & Klein, 2020) (if relevant),
-#                   and drawing on concepts in data science (if relevant).
+#                   grammatical errors, and if relevant: reporting specific 
+#                   results from your data analyses, including citations, drawing
+#                   on Data Feminism (D'lgnazio & Klein, 2020), and drawing on
+#                   concepts in data science.
 #
 ## 6.0 Examples ----
 ### 6.1 Example: Coding prompt ----
