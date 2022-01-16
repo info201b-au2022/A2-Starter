@@ -58,7 +58,8 @@
 # Before starting any data science project, it is important to have
 # _domain familiarity_, that is, to know something about the topic. As
 # preparation for this assignment, please find and read *two* articles
-# about protests in the U.S.
+# about protests in the U.S. Keep track of the URLs and titles of 
+# the articles.
 #
 # See (Article #1) and (Article #2) in README.md 
 #
@@ -66,7 +67,7 @@
 # In this assignment, you will download data formatted in a CVS file
 # from Count Love.
 #
-# A CVS file, as you may know, refers a text file where each row contains
+# A CVS file, as you may know, refers to a text file where each row contains
 # values that are separated by commas. The rows in the file are sometimes
 # called records or observations. And the values are sometimes called
 # attributes or features.
@@ -88,19 +89,19 @@
 #
 ## 5.0 Grading guidelines ----
 #
-#   1. The coding prompts are generally worth 1-3 points, depending on
+#   1. The coding prompts are generally worth 1-3 points each, depending on
 #      difficulty. As always, seek to write *correct* code and code that
-#      is *easy* to understand. Total points: 70 points.
+#      is *easy* to understand. Total points: 73 points.
 #
-#   2. The reflective prompts are generally worth 1 or 2 points. 
-#      Total points: 22 points.
+#   2. The reflective prompts are generally worth 2 points. 
+#      Total points: 24 points.
 #      
 #         0 points: Not completed or poorly done.
 #         1 points: Completed and satisfactory.
 #         2 points: A concise, clear, thoughtful response, without spelling or
 #                   grammatical errors, and if relevant: reporting specific 
-#                   results from your data analyses, including citations, drawing
-#                   on Data Feminism (D'lgnazio & Klein, 2020), and drawing on
+#                   results from your data analyses; including citations; drawing
+#                   on Data Feminism (D'lgnazio & Klein, 2020); and drawing on
 #                   concepts in data science.
 #
 ## 6.0 Examples ----
@@ -170,7 +171,7 @@ sum_numbers <- sum(10,1,-2.5)
 
 # (R.2a) Reflection: What does the difference between the mean and the median
 # tell you about the *distribution* of the data? (Note: If you're unfamiliar with
-# working with distributions, feel free to ask your TA for clarification.)
+# working with distributions, ask your TA for clarification.)
 
 # (2.g) To further assess the distribution of values, create a boxplot of the
 # number of attendees using the `boxplot()` function. Store the plot in a
@@ -327,6 +328,10 @@ sum_numbers <- sum(10,1,-2.5)
 # (6.a) Finally, write your own function that allows you to quickly ask
 # questions of the dataset. For example, in the above sections, you wrote
 # functions to ask the same question about different months, or locations.
+#
+# After wrting your function, demonstrate that it works, providing comments
+# to help the grader understand the purpose of the function and to check 
+# that it implemented correctly. 
 
 ## Part 7: Critical Thinking About Data  ----------------------------------
 #
@@ -343,4 +348,5 @@ sum_numbers <- sum(10,1,-2.5)
 # (R.8a) Reflection. What did you find most challenging? What was 
 # the most interesting thing that you learned? What types of analysis do 
 # you wish you were able to do with the dataset, but currently don't 
-# have the technical skills? 
+# have the technical skills? Write a brief repsonse that enagages these 
+# or similar questions.
