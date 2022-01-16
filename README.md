@@ -13,9 +13,9 @@ By completing the assignment, you will demonstrate the following skills:
 
 ## The Assignment
 **Instructions and grading**. Assignment instructions, and grading information, 
-are available in this file [analysis.R](analysis.R).
+are available in this file: [analysis.R](analysis.R).
 
-**The assignment parts**. The file [analysis.R](analysis.R) consists of eight parts.
+**Eight assignment parts**. The file [analysis.R](analysis.R) consists of eight parts.
 
 * Parts 1-6 require you to code in R.
 * Part 7 prompts you to critically think about the Count Love dataset.
@@ -39,7 +39,7 @@ use markdown code - for example, use **bold**, _italics_, and `code` appropriate
 and open this file in Atom. Or, you might find it more convenient to open
 both files in RStudio and flip back and forth with the tabs.
 
-Keep point: In [analysis.R](analysis.R), write R code; in this file below,
+Key point: In [analysis.R](analysis.R), write R code; in this file below,
 write in English.
 
 **Questions?** As always, please post on Teams or ask your Instructor or Teaching Assistant.
@@ -80,6 +80,7 @@ write in English.
 * **Direct stakeholders** ...
 * **Indirect stakeholders**: ...
 * **Benefits and harms**: ...
+* **Summary on power**: ...
 
 #### Part 8: Your Learning
 * **(R.8a)** ...
