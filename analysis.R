@@ -1,138 +1,153 @@
-# Overview ----------------------------------------------------------------
-# Updated: January 15, 2022 (David Hendry)
-#
-# Assignment 1
-# In this assignment you will analyze data from:
-#    Count Love: Protests for a kinder world
-#    https://countlove.org
-#
-## 1.0 Introduction ----
-# Before proceeding, as with any data science project, you should explore
-# countlove.org and consider such questions as:
-#    1. Goals. What are the goals of Count Love? Who is working on this 
-#           project? What does Count Love want to achieve?
-#    2. Human values. What values seem to be informing the design of
-#           Count Love? Where do these values come from?
-#    3. Data sources. Where does the data come from? Is the data credible?
-#           What assumptions do the developers make about the data? What
-#           data is missing?
-#    3. Direct stakeholders. Who might use the data collected at Count
-#           Love? What skills and motivations would be needed? How is this
-#           this project funded? Who, if anyone, makes money?
-#    4. Indirect stakeholders. Who, if anyone, might be impacted by this
-#           data but is unaware of Count Love?
-#    5. Benefits and harms. What are the potential benefits and harms of
-#           Count Love?
-#
-# Data Feminism. As you consider these five dimensions, draw upon your
-# reading from D'lgnazio & Klein (2020), and consider how Count Love
-# uses and resists "power" to achieve its goals.
-#
-### Note: Working Definitions:
-#    Human Value.  (noun) "What is important to people in their lives,
-#                  with a focus on ethics and morality." Example human
-#                  values: privacy, safety, intimacy, interdependence,
-#                  calmness, dignity, justice, environmental sustainability,
-#                  system performance, system reliability, usability (ease of
-#                  use), and many more.
-#
-#    Direct        (noun) "A person who directly uses a tool or technology,
-#    stakeholder.  including data and data visualizations." In human-centered
-#                  design and design thinking, direct stakeholders are often
-#                  called "users."
-#
-#    Indirect      (noun) "A person who is impacted by a tool or technology
-#    stakeholder.  but who never actually uses it." Example: In a court
-#                  of law, a judge might use an AI system that predicts
-#                  if a convicted defendant is likely to repeat their
-#                  crime in the future. This tool might be used by a judge
-#                  to make a sentencing decision. The defendant, however,
-#                  would NOT interact with such a system. Here, the defendant
-#                  would be an indirect stakeholder, whereas the judge and the
-#                  AI system engineers would be direct stakeholders.
-#
-# These definitions come from the Envisioning Cards (Friedman, Nathan, Kane,
-# & Lin (2011) and value sensitive design (vsdesign.org).
-#
-## 2.0 About Social Movements ----
-# Before starting any data science project, it is important to have
-# _domain familiarity_, that is, to know something about the topic. As
-# preparation for this assignment, please find and read *two* articles
-# about protests in the U.S. Keep track of the URLs and titles of 
-# the articles.
-#
-# See (Article #1) and (Article #2) in README.md 
-#
-## 3.0 About the Data ----
-# In this assignment, you will download data formatted in a CVS file
-# from Count Love.
-#
-# A CVS file, as you may know, refers to a text file where each row contains
-# values that are separated by commas. The rows in the file are sometimes
-# called records or observations. And the values are sometimes called
-# attributes or features.
-#
-# CVS files are a very common format for data exchange. You can, for example,
-# create and open CVS files with Microsoft Excel. See section 10.3 (Freedman
-# & Ross, 2019).
-#
-## 4.0 Assignment Prompts ----
-# This assignment comprises two kinds of prompts:
-#
-#    1. Coding prompts. Write the necessary R code to compute an answer.
-#    For grading, it is VERY IMPORTANT that you assign results to the variable
-#    names in the `backtics`.
-#
-#    2. Reflection prompts. Critically think about the prompt and write a brief
-#    response (1-3 sentences or a short paragraph, depending on the prompt).
-#    Your responses should be written in the README.md file.
-#
-## 5.0 Grading guidelines ----
-#
-#   1. The coding prompts are generally worth 1-3 points each, depending on
-#      difficulty. As always, seek to write *correct* code and code that
-#      is *easy* to understand. Total points: 73 points.
-#
-#   2. The reflective prompts are generally worth 2 points. 
-#      Total points: 24 points.
-#      
-#         0 points: Not completed or poorly done.
-#         1 points: Completed and satisfactory.
-#         2 points: A concise, clear, thoughtful response, without spelling or
-#                   grammatical errors, and if relevant: reporting specific 
-#                   results from your data analyses; including citations; drawing
-#                   on Data Feminism (D'lgnazio & Klein, 2020); and drawing on
-#                   concepts in data science.
-#
-## 6.0 Examples ----
-### 6.1 Example: Coding prompt ----
-# Use the function sum() to compute the sum of three integers. `sum_numbers`
+#' @version ps-1
+#' @short DS-05-1
+#' @title Practice with basic R syntax
+#' @descr
+#' Exercise 5.1 from Programming Skills for Data Science by
+#' Micheal Freeman and Joel Ross. See:
+#' https://github.com/programming-for-data-science/book-exercises
+#' @end
+
+#' @id -
+#' @msg 
+#' # Overview ----------------------------------------------------------------
+#' # Updated: January 15, 2022 (David Hendry)
+#' #
+#' # Assignment 1
+#' # In this assignment you will analyze data from:
+#' #    Count Love: Protests for a kinder world
+#' #    https://countlove.org
+#' #
+#' ## 1.0 Introduction ----
+#' # Before proceeding, as with any data science project, you should explore
+#' # countlove.org and consider such questions as:
+#' #    1. Goals. What are the goals of Count Love? Who is working on this 
+#' #           project? What does Count Love want to achieve?
+#' #    2. Human values. What values seem to be informing the design of
+#' #           Count Love? Where do these values come from?
+#' #    3. Data sources. Where does the data come from? Is the data credible?
+#' #           What assumptions do the developers make about the data? What
+#' #           data is missing?
+#' #    3. Direct stakeholders. Who might use the data collected at Count
+#' #           Love? What skills and motivations would be needed? How is this
+#' #           this project funded? Who, if anyone, makes money?
+#' #    4. Indirect stakeholders. Who, if anyone, might be impacted by this
+#' #           data but is unaware of Count Love?
+#' #    5. Benefits and harms. What are the potential benefits and harms of
+#' #           Count Love?
+#' #
+#' # Data Feminism. As you consider these five dimensions, draw upon your
+#' # reading from D'lgnazio & Klein (2020), and consider how Count Love
+#' # uses and resists "power" to achieve its goals.
+#' #
+#' ### Note: Working Definitions:
+#' #    Human Value.  (noun) "What is important to people in their lives,
+#' #                  with a focus on ethics and morality." Example human
+#' #                  values: privacy, safety, intimacy, interdependence,
+#' #                  calmness, dignity, justice, environmental sustainability,
+#' #                  system performance, system reliability, usability (ease of
+#' #                  use), and many more.
+#' #
+#' #    Direct        (noun) "A person who directly uses a tool or technology,
+#' #    stakeholder.  including data and data visualizations." In human-centered
+#' #                  design and design thinking, direct stakeholders are often
+#' #                  called "users."
+#' #
+#' #    Indirect      (noun) "A person who is impacted by a tool or technology
+#' #    stakeholder.  but who never actually uses it." Example: In a court
+#' #                  of law, a judge might use an AI system that predicts
+#' #                  if a convicted defendant is likely to repeat their
+#' #                  crime in the future. This tool might be used by a judge
+#' #                  to make a sentencing decision. The defendant, however,
+#' #                  would NOT interact with such a system. Here, the defendant
+#' #                  would be an indirect stakeholder, whereas the judge and the
+#' #                  AI system engineers would be direct stakeholders.
+#' #
+#' # These definitions come from the Envisioning Cards (Friedman, Nathan, Kane,
+#' # & Lin (2011) and value sensitive design (vsdesign.org).
+#' #
+#' ## 2.0 About Social Movements ----
+#' # Before starting any data science project, it is important to have
+#' # _domain familiarity_, that is, to know something about the topic. As
+#' # preparation for this assignment, please find and read *two* articles
+#' # about protests in the U.S. Keep track of the URLs and titles of 
+#' # the articles.
+#' #
+#' # See (Article #1) and (Article #2) in README.md 
+#' #
+#' ## 3.0 About the Data ----
+#' # In this assignment, you will download data formatted in a CVS file
+#' # from Count Love.
+#' #
+#' # A CVS file, as you may know, refers to a text file where each row contains
+#' # values that are separated by commas. The rows in the file are sometimes
+#' # called records or observations. And the values are sometimes called
+#' # attributes or features.
+#' #
+#' # CVS files are a very common format for data exchange. You can, for example,
+#' # create and open CVS files with Microsoft Excel. See section 10.3 (Freedman
+#' # & Ross, 2019).
+#' #
+#' ## 4.0 Assignment Prompts ----
+#' # This assignment comprises two kinds of prompts:
+#' #
+#' #    1. Coding prompts. Write the necessary R code to compute an answer.
+#' #    For grading, it is VERY IMPORTANT that you assign results to the variable
+#' #    names in the `backtics`.
+#' #
+#' #    2. Reflection prompts. Critically think about the prompt and write a brief
+#' #    response (1-3 sentences or a short paragraph, depending on the prompt).
+#' #    Your responses should be written in the README.md file.
+#' #
+#' ## 5.0 Grading guidelines ----
+#' #
+#' #   1. The coding prompts are generally worth 1-3 points each, depending on
+#' #      difficulty. As always, seek to write *correct* code and code that
+#' #      is *easy* to understand. Total points: 73 points.
+#' #
+#' #   2. The reflective prompts are generally worth 2 points. 
+#' #      Total points: 24 points.
+#' #      
+#' #         0 points: Not completed or poorly done.
+#' #         1 points: Completed and satisfactory.
+#' #         2 points: A concise, clear, thoughtful response, without spelling or
+#' #                   grammatical errors, and if relevant: reporting specific 
+#' #                   results from your data analyses; including citations; drawing
+#' #                   on Data Feminism (D'lgnazio & Klein, 2020); and drawing on
+#' #                   concepts in data science.
+#' #
+#' ## 6.0 Examples ----
+#' ### 6.1 Example: Coding prompt ----
+#' # Use the function sum() to compute the sum of three integers. `sum_numbers`
 sum_numbers <- sum(10,1,-2.5)
 
-# Grading: This answer would get 0.5 / 1 point b/c -2.5 is NOT an integer,
-# but the sum() function is correct, there are three numbers, and the
-# variable name is correct.
+#' # Grading: This answer would get 0.5 / 1 point b/c -2.5 is NOT an integer,
+#' # but the sum() function is correct, there are three numbers, and the
+#' # variable name is correct.
 
-### 6.2 Example: Reflection Prompt ----
-# Reflection: Look at the US map at https://countlove.org/. What do you notice
-# about the distributions of protests?
-#
-# Grading:
-# 0 point answer: "Protests are shown with blue dots."
-# 1 point answer: "There are more protests in the Eastern US than anywhere else."
-# 2 point answer: "There seem to be more protests in the Eastern
-#                 US, perhaps because more people live there, or
-#                 because more people are politically or socially
-#                 active in the Eastern US, or because it has been
-#                 easier to collect data in cities and towns
-#                 in the Eastern US than elsewhere."
-#
-# Parts 1-8 ----
-# You are now ready to work on Parts 1-8. As always, if you have questions,
-# post on Teams or ask the Instructor or your Teaching Assistant.
+#' ### 6.2 Example: Reflection Prompt ----
+#' # Reflection: Look at the US map at https://countlove.org/. What do you notice
+#' # about the distributions of protests?
+#' #
+#' # Grading:
+#' # 0 point answer: "Protests are shown with blue dots."
+#' # 1 point answer: "There are more protests in the Eastern US than anywhere else."
+#' # 2 point answer: "There seem to be more protests in the Eastern
+#' #                 US, perhaps because more people live there, or
+#' #                 because more people are politically or socially
+#' #                 active in the Eastern US, or because it has been
+#' #                 easier to collect data in cities and towns
+#' #                 in the Eastern US than elsewhere."
+#' #
+#' # Parts 1-8 ----
+#' # You are now ready to work on Parts 1-8. As always, if you have questions,
+#' # post on Teams or ask the Instructor or your Teaching Assistant.
+#' @end
 
-## Part 1: Set up ----------------------------------------------------------
-# In this section, you will load the necessary packages and data.
+#' @id -
+#' @msg 
+#' ## Part 1: Set up ----------------------------------------------------------
+#' # In this section, you will load the necessary packages and data.
+#' @end
 
 # (1.a) Load the `stringr` package, which you'll use later.
 
