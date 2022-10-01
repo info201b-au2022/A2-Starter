@@ -76,7 +76,6 @@ write in English.
 (_Updated: October 2022, Your Teaching Team_)
 
 ## Your Responses and Reflections
-* **(R1a)** ... (expected word count: 25-50 words)
 
 #### Part 2: Attendees
 * **(R2a)** ... (expected word count: 25-50 words
