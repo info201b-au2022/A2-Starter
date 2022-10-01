@@ -4,12 +4,12 @@ In recent years the United States has experienced a surge of protests, in suppor
 In this assignment, you will work with data from [Count Love](https://countlove.org/), data that is ocassionally [cited](https://www.nytimes.com/2020/08/28/us/black-lives-matter-protest.html) by the _New York Times_ when reporting on US demonstrations.
 
 ## Learning objectives
-By completing the assignment, you will demonstrate the following skills:
+By completing the assignment, you will develop or skills for:
 
-- Use of **version control** for managing your code
-- Declaring document rendering using **markdown** syntax
-- Foundation programming skills in R
-- Critical think about data.
+- **Version control** (git and GitHub) for managing your code
+- Writing documents with **markdown** syntax
+- Coding in R
+- Thinking critcally about data.
 
 ## The Assignment
 **Instructions and grading**. Assignment instructions, and grading information, 
@@ -24,20 +24,19 @@ are available in this file: [analysis.R](analysis.R).
 **Coding and reflection prompts**. You will find two kinds of prompts in [analysis.R](analysis.R):
 
 * *Coding prompts*, which prompt you to write R code in [analysis.R](analysis.R).
-* *Reflection prompts*, which prompt you to write responses below
+* *Reflection prompts*, which prompt you think. You will write your responses below, 
 in this file (`README.md`).
 
 **Formatting Your Responses and Reflections**.
 
 * When formatting your written
 responses and reflections below, please *retain* all
-reflection prompt IDs (e.g., (R.1a), (R.2a), etc.).
-* To write clearly,
-use markdown code - for example, use **bold**, _italics_, and `code` appropriately; include images or links (if useful); and so forth.
+reflection prompt IDs (e.g., R1a, R2a, etc.).
+* Remove expected word counts
+* To write clearly, use markdown code appropriately (e.g., **bold**, _italics_, and `code`). As appropriate, include images, links, and so forth.
 
-**Getting started**. To get started, we suggest that you open [analysis.R](analysis.R) in RStudio
-and open this file in Atom. Or, you might find it more convenient to open
-both files in RStudio and flip back and forth with the tabs.
+**Getting started**. To get started, we suggest that you open [analysis.R](analysis.R) 
+and this file in RStudio.
 
 Key point: In [analysis.R](analysis.R), write R code; in this file below,
 write in English.
@@ -48,28 +47,24 @@ write in English.
    :writing_hand: Good critical thinking!
       :smile: Good-luck!
 
-(_Updated: January 15, 2022, David Hendry_)
+(_Updated: October 2022, Our Teaching Team_)
 
 ## Your Responses and Reflections
-* **(R.1a)** ...
-
-#### Social Movements
-* **(Article #1)** ...
-* **(Article #2)** ...
+* **(R1a)** ... (expected word count: 25-50 words)
 
 #### Part 2: Attendees
-* **(R.2a)** ...
+* **(R2a)** ... (expected word count: 25-50 words
 
 #### Part 3: Locations
-* **(R.3a)** ...
-* **(R.3a)** ...
-* **(R.3b)** ...
+* **(R.3a)** ... (expected word count: 25-50 words)
+* **(R.3b)** ... (expected word count: 25-50 words)
+* **(R.3c)** ... (expected word count: 25-50 words)
 
 #### Part 4: Dates
-* **(R.4a)** ...
+* **(R4a)** ... (expected word count: 25-50 words)
 
 #### Part 5: Protest Purpose
-* **(R.5a)** ...  
+* **(R5a)** ... (expected word count: 25-50 words)  
 
 #### Part 7: Critical Thinking
 **(R7.a)**
