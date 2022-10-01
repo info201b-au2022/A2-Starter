@@ -79,5 +79,5 @@ write in English.
 * **Summary on power**: [drawing on D'lgnazio & Klein (2020), write about power] (expected word count: 25-50 words) 
 
 #### Part 8: Your Learning
-* **(R8a)** [reflect on your learning) (expected word count: 25-50 words) 
+* **(R8a)** ... [reflect on your learning] (expected word count: 25-50 words) 
 
