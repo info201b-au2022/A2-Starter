@@ -32,7 +32,8 @@ in this file (`README.md`).
 * When formatting your written
 responses and reflections below, please *retain* all
 reflection prompt IDs (e.g., R1a, R2a, etc.).
-* Remove expected word counts
+* Fill in the elipses (...) with your own words. 
+* Remove expected word counts.
 * To write clearly, use markdown code appropriately (e.g., **bold**, _italics_, and `code`). As appropriate, include images, links, and so forth.
 
 **Getting started**. To get started, we suggest that you open [analysis.R](analysis.R) 
@@ -47,7 +48,7 @@ write in English.
    :writing_hand: Good critical thinking!
       :smile: Good-luck!
 
-(_Updated: October 2022, Our Teaching Team_)
+(_Updated: October 2022, Your Teaching Team_)
 
 ## Your Responses and Reflections
 * **(R1a)** ... (expected word count: 25-50 words)
@@ -72,11 +73,11 @@ write in English.
 * **Goals**: The main goal of Count Love is ... Count Love can be used to ... (expected word count: 25-50 words)  
 * **Human Values**: Two central values of Count Love are ... (expected word count: 25-50 words)  
 * **Data sources**: The data for Count Love comes from ... (expected word count: 25-50 words)  
-* **Direct stakeholders** ...
-* **Indirect stakeholders**: ...
-* **Benefits and harms**: ...
-* **Summary on power**: ...
+* **Direct stakeholders** Two direct stakeholders are: 1) ..., because ... ; and 2) ... because .... (expected word count: 25-50 words)  
+* **Indirect stakeholders**: Two indirect stakeholders are: 1) ..., because ... ; and 2) ... because .... (expected word count: 25-50 words)  
+* **Benefits and harms**: A potential benefit of Count Love is .... A potential harm is .... (expected word count: 25-50 words) 
+* **Summary on power**: [drawing on D'lgnazio & Klein (2020), write about power] (expected word count: 25-50 words) 
 
 #### Part 8: Your Learning
-* **(R.8a)** ...
+* **(R8a)** [reflect on your learning) (expected word count: 25-50 words) 
 
