@@ -26,15 +26,15 @@ Before diving into this (or any) dataset, it's important to know where the data 
 
 - Next, we would like you to read this [New York Times piece that uses CountLove data](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) and that describes the Black Lives Matter protests that occurred in the summer of 2020. Please summarize the main point or argument of this article in 2-3 sentences (3 points)
 
-Next, we're going to reflect about who collected this data, and what's actually inside it.
+Next, we're going to reflect about who collected this data, and what's actually inside it. Write your answers below under the heading "Your Responses and Reflections."
 
-- Who collected and shared the CountLove data, and what do they do for a living? Please answer in 1-2 sentences(2 points)
+**(R1a)** Who collected and shared the CountLove data, and what do they do for a living? (about 25-50 words)
 
-- As Klein and D'Ignazio remind us, when it comes to data, "what gets counted counts." What types of demonstrations does CountLove include in their data, and what types do they exclude? (3 points)
+**(R1b)** As Klein and D'Ignazio remind us, when it comes to data, "what gets counted counts." What types of demonstrations does CountLove include in their data, and what types do they exclude? (about 25-50 words)
 
-- How and where does CountLove get their data about the protests? Please answer in 2-3 sentences (2 points)
+**(R1c)** How and where does CountLove get their data about the protests? (about 25-50 words)
 
-- How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? Please answer in 3-4 sentences (4 points)
+**(R1d)** How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? (about 25-50 words)
 
 ## The Assignment
 **Instructions**. Assignment instructions, and grading information, 
@@ -77,19 +77,26 @@ write in English.
 
 ## Your Responses and Reflections
 
+### Part I: Critical Analysis & Reflection: Before You Code
+
+* **(R1a)** ... (about 25-50 words)
+* **(R1b)** ... (about 25-50 words)
+* **(R1c)** ... (about 25-50 words)
+* **(R1d)** ... (about 25-50 words)
+
 #### Part 2: Attendees
-* **(R2a)** ... (expected word count: 25-50 words
+* **(R2a)** ... (about 25-50 words)
 
 #### Part 3: Locations
-* **(R.3a)** ... (expected word count: 25-50 words)
-* **(R.3b)** ... (expected word count: 25-50 words)
-* **(R.3c)** ... (expected word count: 25-50 words)
+* **(R.3a)** ... (about 25-50 words)
+* **(R.3b)** ... (about 25-50 words)
+* **(R.3c)** ... (about 25-50 words)
 
 #### Part 4: Dates
-* **(R4a)** ... (expected word count: 25-50 words)
+* **(R4a)** ... (about 25-50 words)
 
 #### Part 5: Protest Purpose
-* **(R5a)** ... (expected word count: 25-50 words)  
+* **(R5a)** ... (about 25-50 words) 
 
 #### Part 7: Critical Thinking
 **(R7a)**
