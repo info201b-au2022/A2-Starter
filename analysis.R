@@ -7,7 +7,7 @@
 # Practice set info ---- 
 practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
-# Your 43 prompts ----
+# Your 44 prompts ----
 
 #                                         Note 01.
 # Overview ----
@@ -21,7 +21,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # consider these questions:
 #
 #    1. Goals. What are the goals of Count Love? Who is working on this 
-#           project? What does Count Love want to achieve?
+#           project? What does Count Love want to achieve? 
 #    2. Human values. What values seem to be informing the design of
 #           Count Love? Where do these values come from?
 #    3. Data sources. Where does the data come from? Is the data credible?
@@ -161,7 +161,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # 2f: What is the difference between the mean and median number of attendees? (Variable: `mean_median_diff`)
 
 #                                         Note 07.
-#     *Consideration:* What does the difference between the mean and the median
+#     *Consideration* What does the difference between the mean and the median
 #     tell you about the *distribution* of the data? (Note: If you're unfamiliar with
 #     working with distributions, ask your TA for clarification.)
 
@@ -231,8 +231,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 #                                         Note 10.
 #     *R3b: REFLECTION:* You have applied your function to an entire vector 
-#     *at once* with `sapply()`. Is this *AMAZING*? Do you think this is powerful? Why
-#     or why not? Briefly comment.
+#     *at once* with `sapply()`. Do you tink this is *AMAZING*? Why not? Briefly comment.
 
 # 3l: Create a summary table by passing your `states` variable to the
 #    `table()` function and by storing the result in the variable `state_table`.
@@ -270,8 +269,8 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # 4g: What is the ratio of the number of protests in 2020 compared to 2019? (Variable: `ratio_2020_2019`)
 
 #                                         Note 13.
-#     *R4a: REFLECTION:* Does the change in the number of protests from 2019 to 2020
-#     surprise you? Why or why not?
+#     *CONSIDER:* Does the change in the number of protests from 2019 to 2020
+#     surprise you? Why or why not? (Nothing to write.)
 
 # 4h: Write a function `count_on_date()` that accepts the parameter `date`,
 #    and returns the sentence:
@@ -301,7 +300,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # 5a: Extract the `Event..legacy..see.tags.` column into a variable called `purpose`.
 #    
-#    The name of this column, "Event..legacy..see.tags.", is very odd. Why? 
+#    *CONSIDER:* The name of this column, "Event..legacy..see.tags.", is very odd. Why? 
 #    What can be learned from this column name? (Variable: `purpose`)
 
 # 5b: How many different purposes are listed in the dataset? (Variable: `num_purposes`)
@@ -349,12 +348,14 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    to regular expressions and R. Take your time. You will likely need to do some
 #    thoughtful trial and error. (Variable: `get_purposes`)
 
-# 5d: How many "high level" purposes have you identified? (Variable: `num_high_level`)
+# 5d: Show that your function, `get_purposes()` works. (Variable: `high_level_purpose`)
 
-# 5e: Use the table() function to count the number of protests for each high level purpose. (Variable: `high_level_table`)
+# 5e: How many "high level" purposes have you identified? (Variable: `num_high_level`)
+
+# 5f: Use the table() function to count the number of protests for each high level purpose. (Variable: `high_level_table`)
 
 #                                         Note 15.
-#     *R5a: REFLECTION:* Use View() to examine your `high_level_table` variable. What
+#     *CONSIDER:* Use View() to examine your `high_level_table` variable. What
 #     picture does this paint of the U.S.?
 
 #                                         Note 16.
@@ -393,7 +394,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #                           
 # This function should do two things:(1) It should call `filter_positions()`,
 # to create a sub-set of protests; and (2) It should call `format_doc()`, 
-# to create a simple report.
+# to create the report.
 # 
 # CODING PROMPT 
 # (1) Write the two functions (1 and 2), just described 
