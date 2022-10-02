@@ -83,7 +83,7 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 
 ## Your Responses and Reflections
 
-### Part I: Critical Analysis & Reflection: Before You Code
+### Critical Analysis & Reflection: Before You Code (questions above)
 
 * **(R1a)** ... (about 25-50 words)
 * **(R1b)** ... (about 25-50 words)
@@ -94,16 +94,12 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 * **(R1g)** ... (bullet points fine; about 50 words)
 * **(R1h)** ... (bullet points fine; about 50 words)
 
-#### Part 3: Locations
+### Part 3 (`analysis.R`): Locations
 * **(R3a)** ... (about 25-50 words)
 * **(R3b)** ... (about 25-50 words)
 * **(R3c)** ... (about 25-50 words)
 
-#### Part 5: Protest Purpose
-* **(R5a)** ... (about 25-50 words) 
-
-#### Part 7: Critical Analysis & Reflection: After You Code
+### Critical Analysis & Reflection: After You Code (questions above)
 * **(R7a)** ... (100 words or more)
 * **(R7b)** ... (50 words or more)
 * **(R7c)** ... (50 words or more)
-
