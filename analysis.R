@@ -4,7 +4,7 @@
 #    INFO-201 (Autumn 2022)
 #    dhendry@uw.edu
 
-# Assignment set-up info ---- 
+# Practice set info ---- 
 practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # Your 43 prompts ----
@@ -65,21 +65,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # reading from D'lgnazio & Klein (2020), and consider how Count Love
 # uses and resists "power" to achieve its goals.
 #
-## 2.0 About Social Movements ----
-# Before starting any data science project, it is important to have
-# _domain familiarity_, that is, to know something about the topic. 
-#
-# Social movements are a complex phenomena of much importance to 
-# human societies. As general preparation for this assignment, 
-# please spend some time reading in this blog: https://countlove.org/blog/ 
-#
-# Consider such questions as: 
-#    1. What is a social movement? 
-#    2. Why are social movements important to U.S. society? 
-#    3. How do social movements impact democracy in the U.S?
-#    4. How might data science help stakeholders understand and design social movements?  
-#
-## 3.0 About the Data ----
+## 2.0 About the Data ----
 # In this assignment, you will download data formatted in a CSV file
 # from Count Love.
 #
@@ -94,7 +80,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # create and open CSV files with Microsoft Excel. See section 10.3 (Freedman
 # & Ross, 2019).
 #
-## 4.0 Assignment Prompts ----
+## 3.0 Assignment Prompts ----
 # This assignment comprises two kinds of prompts:
 #
 #    Coding prompts:      Write the necessary code to compute the answer. 
@@ -107,11 +93,11 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    Reflection prompts:  For each prompt marked `REFLECTION`, please write
 #                         a response in your `README.md` file.
 #
-#    *Note 1:* Grading guidelines are here: 
+# *Note 1:* Grading guidelines are here: 
 #    https://canvas.uw.edu/courses/1616427/pages/info-grading-guidelines-and-rubrics
 #
-## 5.0 Examples ----
-### 5.1 Example: Coding prompt ----
+## 4.0 Examples ----
+### 4.1 Example: Coding prompt ----
 # Use the function sum() to compute the sum of three integers. `sum_numbers`
 #    sum_numbers <- sum(10,1,-2.5)
 #
@@ -119,7 +105,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # although the sum() function is correct, there are three numbers, and the
 # variable name is correct.
 #
-### 5.2 Example: Reflection Prompt ----
+### 4.2 Example: Reflection Prompt ----
 # Reflection: Look at the US map at https://countlove.org/. What do you notice
 # about the distributions of protests?
 #
@@ -132,10 +118,6 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #              active in the Eastern US, or 3) it has been
 #              easier to collect data in cities and towns
 #              in the Eastern US than elsewhere."
-#
-# Parts 1-8 ----
-# You are now ready to work on Parts 1-8. As always, if you have questions,
-# post on Teams or ask your Teaching Assistant.
 
 #                                         Note 02.
 ## Part 1: Set up ----
@@ -158,16 +140,13 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    attributes or features) have been recorded for each protest (Variable: `num_features`)
 
 #                                         Note 05.
-#     *R1a: REFLECTION:* In your own words, what is Count Love?
-
-#                                         Note 06.
 ## Part 2: Attendees ----
 # In this part, you will explore the number of people who participated
 # in the protests.
 
 # 2a: Extract the `Attendees` column into a variable called `num_attendees`. (Variable: `num_attendees`)
 
-#                                         Note 07.
+#                                         Note 06.
 #     For the following prompts, you will need to consider missing values. In R,
 #     missing values are denoted by the symbol NA, which means "Not Available."
 
@@ -181,8 +160,8 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # 2f: What is the difference between the mean and median number of attendees? (Variable: `mean_median_diff`)
 
-#                                         Note 08.
-#     *R2a: REFLECTION:* What does the difference between the mean and the median
+#                                         Note 07.
+#     *Consideration:* What does the difference between the mean and the median
 #     tell you about the *distribution* of the data? (Note: If you're unfamiliar with
 #     working with distributions, ask your TA for clarification.)
 
@@ -195,7 +174,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    Store the plot in a variable `log_attendees_distribution`. (Note: You will
 #    likely see see a warning in the console, which is expected.) (Variable: `log_attendess_distribution`)
 
-#                                         Note 09.
+#                                         Note 08.
 ## Part 3: Locations -----
 # In this part, you will explore where the protests happened.
 
@@ -209,7 +188,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # 3d: What proportion of protests occurred in Washington? (Variable: `prop_in_wa`)
 
-#                                         Note 10.
+#                                         Note 09.
 #     *R3a: REFLECTION:* Does the number of protests in Washington surprise you?
 #     Why or why not?
 
@@ -250,7 +229,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    (Hint: Study section 8.3 in the textbook. It is important to understand
 #    the `sapply()` and `lapply()` functions.) (Variable: `state_summary`)
 
-#                                         Note 11.
+#                                         Note 10.
 #     *R3b: REFLECTION:* You have applied your function to an entire vector 
 #     *at once* with `sapply()`. Is this *AMAZING*? Do you think this is powerful? Why
 #     or why not? Briefly comment.
@@ -260,7 +239,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #   
 #    *SUGGESTION:* Use the View() function to more easily examine the table. (Variable: `state_table`)
 
-#                                         Note 12.
+#                                         Note 11.
 #     *R3c: REFLECTION:* Looking at the `state_table` variable, what data quality
 #     issues do you notice? How would you change your analysis? (Note: There is no
 #     need to actually change your analysis)?
@@ -268,7 +247,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # 3m: What was the maximum number of protests in a state? (Hint: Use the
 #    `state_table` variable.) (Variable: `max_in_state`)
 
-#                                         Note 13.
+#                                         Note 12.
 ## Part 4: Dates ----
 # In this part, you will exploring *when* protests happened.
 
@@ -290,7 +269,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # 4g: What is the ratio of the number of protests in 2020 compared to 2019? (Variable: `ratio_2020_2019`)
 
-#                                         Note 14.
+#                                         Note 13.
 #     *R4a: REFLECTION:* Does the change in the number of protests from 2019 to 2020
 #     surprise you? Why or why not?
 
@@ -315,7 +294,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 #    July 2019? You'll want to do this in multiple steps as you see fit, though
 #    your answer should be stored in the variable. (Variable: `change_july_protests`)
 
-#                                         Note 15.
+#                                         Note 14.
 ## Part 5: Protest Purpose ----
 # In this section, you will explore *why* the protests happened. That is, 
 # our goal is to understand the purposes of the protests.
@@ -374,11 +353,11 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 # 5e: Use the table() function to count the number of protests for each high level purpose. (Variable: `high_level_table`)
 
-#                                         Note 16.
+#                                         Note 15.
 #     *R5a: REFLECTION:* Use View() to examine your `high_level_table` variable. What
 #     picture does this paint of the U.S.?
 
-#                                         Note 17.
+#                                         Note 16.
 ## Part 6: Developing data systems ----
 #
 # "Count Love" and similar systems are developed by writing functions that each
@@ -421,7 +400,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # (2) Write code to test the functions and show that they work
 # (3) Document your code.
 
-#                                         Note 18.
+#                                         Note 17.
 ## Reporting ---- 
 # This function produces a markdown report that summarizes a subset 
 # of the protests. 
@@ -493,27 +472,6 @@ write_report <- function(md_doc, fname="~/Documents/info201/reports/report.md") 
 # 6b: Write the filter_and_report() function, as described above. Please comment 
 #    your function. (Variable: `filter_and_report`)
 
-#                                         Note 19.
+#                                         Note 18.
 # 6c: Demonstrate that your two functions, filter_protests() and 
-#    and filter_and_report(), work correctly. Comment your tests.
-
-#                                         Note 20.
-## Part 7: Critical Thinking About Data  -----
-#
-# *R7a: REFLECTION:* Recall that in the introduction, there were five dimensions for
-# critically thinking about the Count Love dataset and website. They were: (1) Goals;
-# (2) Human values; (3) Data sources; (4) Direct stakeholders; (5) Indirect
-# stakeholders; and (5) Benefits and harms.
-#
-# After having worked through Parts 1-6, please use these dimensions to critically
-# reflect on the Count Love data set. As you do so, consider how Count Love
-# uses and resists "power" to achieve its goals (D'lgnazio & Klein, 2020).
-
-#                                         Note 21.
-## Part 8: Your Learning  ----
-#
-# *R8a: REFLECTION:* Consider the work that you've done. What did you find most 
-# challenging? What was the most interesting thing that you learned? What types 
-# of analysis do you wish you were able to do with the dataset, but currently don't 
-# have the technical skills? Write a brief response that engages these or similar 
-# questions.
+#    and filter_and_report(), work correctly. Comment on your tests.
