@@ -18,7 +18,7 @@ By completing the assignment, you will develop or skills for:
 - Coding in R
 - Thinking critcally about data.
 
-## Critical Analysis & Reflection: Before You Code
+## Part 1: Critical Analysis & Reflection: Before You Code
 
 Before diving into this (or any) dataset, it's important to know where the data came from, and it's important to have or to seek out _domain familiarity_ — that is, knowledge about the subject/topic of the dataset. (We don't want to be "strangers in the dataset," as Catherine D'Ignazio and Lauren Klein describe it.) To get more familiar, we are going to begin by doing some background reading.
 
@@ -42,7 +42,7 @@ Next, we're going to reflect about who collected this data, and what's actually 
 
 **(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder? 
 
-## The Assignment
+## Parts 2-xx: Coding in R
 **Instructions**. Assignment instructions, and grading information, 
 are available in this file: [analysis.R](analysis.R).
 
