@@ -85,6 +85,8 @@ write in English.
 * **(R1b)** ... (about 25-50 words)
 * **(R1c)** ... (about 25-50 words)
 * **(R1d)** ... (about 25-50 words)
+* **(R1e)** ... (about 25-50 words)
+* **(R1f)** ... (about 25-50 words)
 
 #### Part 2: Attendees
 * **(R2a)** ... (about 25-50 words)
