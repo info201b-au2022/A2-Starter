@@ -58,9 +58,6 @@ reflection prompt IDs (e.g., R1a, R2a, etc.).
 * Remove expected word counts.
 * To write clearly, use markdown code appropriately (e.g., **bold**, _italics_, and `code`). As appropriate, include images, links, and so forth.
 
-**Getting started**. To get started, we suggest that you open [analysis.R](analysis.R) 
-and this file (`README.md`) in RStudio.
-
 **Questions?** As always, please post on Teams or ask your Instructor or Teaching Assistant.
 
 :computer: Good coding!
@@ -78,11 +75,11 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 > (3) Imagine: We cannot only focus on inequitable outcomes, because then we will never get to the root cause of injustice. In order to truly dismantle power, we have to imagine our end point not as “fairness,” but as co-liberation.  
 > (4) Teach: The identities of data scientists matter, so how might we engage and empower newcomers to the field in order to shift the demographics and cultivate the next generation of data feminists?  
 
-- How does the CountLove project embody one or more of these 4 forms of challenging power? Please answer in at least 3-4 sentences (3 points)
+**(R7a)** How does the CountLove project embody one or more of these 4 forms of challenging power? 
 
-- What is the most interesting or surprising thing you learned from this analysis? Please answer in at least 2-3 sentences (2 points)
+**(R7b)** What is the most interesting or surprising thing you learned from this analysis? Please answer in at least 2-3 sentences (2 points)
 
-- What is a kind of analysis that you would like to do or that would be interesting to do with the CountLove data that you don't have the time or skills to accomplish at this moment? Please answer in at least 2-3 sentences (2 points)
+**(R7c)** What is a kind of analysis that you would like to do or that would be interesting to do with the CountLove data that you don't have the time or skills to accomplish at this moment? Please answer in at least 2-3 sentences (2 points)
 
 ## Your Responses and Reflections
 
@@ -97,13 +94,10 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 * **(R1g)** ... (bullet points fine; about 50 words)
 * **(R1h)** ... (bullet points fine; about 50 words)
 
-#### Part 2: Attendees
-* **(R2a)** ... (about 25-50 words)
-
 #### Part 3: Locations
-* **(R.3a)** ... (about 25-50 words)
-* **(R.3b)** ... (about 25-50 words)
-* **(R.3c)** ... (about 25-50 words)
+* **(R3a)** ... (about 25-50 words)
+* **(R3b)** ... (about 25-50 words)
+* **(R3c)** ... (about 25-50 words)
 
 #### Part 4: Dates
 * **(R4a)** ... (about 25-50 words)
@@ -111,6 +105,8 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 #### Part 5: Protest Purpose
 * **(R5a)** ... (about 25-50 words) 
 
-#### Part 8: Your Learning
-* **(R8a)** ... [reflect on your learning] (expected word count: 25-50 words) 
+#### Part 7: Critical Analysis & Reflection: After You Code
+* **(R7a)** ... (100 words or more)
+* **(R7b)** ... (50 words or more)
+* **(R7c)** ... (50 words or more)
 
