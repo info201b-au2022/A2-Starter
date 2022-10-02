@@ -38,6 +38,10 @@ Next, we're going to reflect about who collected this data, and what's actually 
 
 **(R1f)** How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? 
 
+**(R1g)** What are two central values of Count Love? Name and breifly describe them.
+
+**(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder? 
+
 ## The Assignment
 **Instructions**. Assignment instructions, and grading information, 
 are available in this file: [analysis.R](analysis.R).
@@ -87,6 +91,8 @@ write in English.
 * **(R1d)** ... (about 25-50 words)
 * **(R1e)** ... (about 25-50 words)
 * **(R1f)** ... (about 25-50 words)
+* **(R1g)** ... (bullet points fine; about 50 words)
+* **(R1h)** ... (bullet points fine; about 50 words)
 
 #### Part 2: Attendees
 * **(R2a)** ... (about 25-50 words)
@@ -102,16 +108,6 @@ write in English.
 #### Part 5: Protest Purpose
 * **(R5a)** ... (about 25-50 words) 
 
-#### Part 7: Critical Thinking
-**(R7a)**
-
-* **Goals**: The main goal of Count Love is ... Count Love can be used to ... (expected word count: 25-50 words)  
-* **Human Values**: Two central values of Count Love are ... (expected word count: 25-50 words)  
-* **Data sources**: The data for Count Love comes from ... (expected word count: 25-50 words)  
-* **Direct stakeholders** Two direct stakeholders are: 1) ..., because ... ; and 2) ... because .... (expected word count: 25-50 words)  
-* **Indirect stakeholders**: Two indirect stakeholders are: 1) ..., because ... ; and 2) ... because .... (expected word count: 25-50 words)  
-* **Benefits and harms**: A potential benefit of Count Love is .... A potential harm is .... (expected word count: 25-50 words) 
-* **Summary on power**: [drawing on D'lgnazio & Klein (2020), write about power] (expected word count: 25-50 words) 
 
 #### Part 8: Your Learning
 * **(R8a)** ... [reflect on your learning] (expected word count: 25-50 words) 
