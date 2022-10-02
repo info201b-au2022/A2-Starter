@@ -99,9 +99,6 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 * **(R3b)** ... (about 25-50 words)
 * **(R3c)** ... (about 25-50 words)
 
-#### Part 4: Dates
-* **(R4a)** ... (about 25-50 words)
-
 #### Part 5: Protest Purpose
 * **(R5a)** ... (about 25-50 words) 
 
