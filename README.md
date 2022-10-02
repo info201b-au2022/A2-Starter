@@ -18,7 +18,7 @@ By completing the assignment, you will develop or skills for:
 - Coding in R
 - Thinking critcally about data.
 
-## 1. Critical Analysis & Reflection: Before You Code
+# 1. Critical Analysis & Reflection: Before You Code
 
 Before diving into this (or any) dataset, it's important to know where the data came from, and it's important to have or to seek out _domain familiarity_ — that is, knowledge about the subject/topic of the dataset. (We don't want to be "strangers in the dataset," as Catherine D'Ignazio and Lauren Klein describe it.) To get more familiar, we are going to begin by doing some background reading.
 
@@ -42,7 +42,7 @@ Next, we're going to reflect about who collected this data, and what's actually 
 
 **(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder? 
 
-## 2. Coding in R: Parts 1-6
+# 2. Coding in R: Parts 1-6
 **Instructions**. Assignment instructions and prompts are in this file: [analysis.R](analysis.R).
 
 **Coding and reflection prompts**. You will find two kinds of prompts in [analysis.R](analysis.R):
@@ -66,7 +66,7 @@ reflection prompt IDs (e.g., R1a, R2a, etc.).
 
 (_Updated: October 2022, Your Teaching Team_)
 
-## 3. Critical Analysis & Reflection: After You Code
+# 3. Critical Analysis & Reflection: After You Code
 
 In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways that data scientists can challenge power and take action:
 > Taking action can itself take many forms, and in this chapter we offer four starting points:  
@@ -94,7 +94,7 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 * **(R1g)** ... (bullet points fine; about 50 words)
 * **(R1h)** ... (bullet points fine; about 50 words)
 
-### Part 3 (`analysis.R`): Locations
+### Part 3: Locations (`analysis.R`)
 * **(R3a)** ... (about 25-50 words)
 * **(R3b)** ... (about 25-50 words)
 * **(R3c)** ... (about 25-50 words)
