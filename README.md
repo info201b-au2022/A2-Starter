@@ -18,7 +18,7 @@ By completing the assignment, you will develop or skills for:
 - Coding in R
 - Thinking critcally about data.
 
-## Part 1: Critical Analysis & Reflection: Before You Code
+## 1. Critical Analysis & Reflection: Before You Code
 
 Before diving into this (or any) dataset, it's important to know where the data came from, and it's important to have or to seek out _domain familiarity_ — that is, knowledge about the subject/topic of the dataset. (We don't want to be "strangers in the dataset," as Catherine D'Ignazio and Lauren Klein describe it.) To get more familiar, we are going to begin by doing some background reading.
 
@@ -42,36 +42,24 @@ Next, we're going to reflect about who collected this data, and what's actually 
 
 **(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder? 
 
-## Parts 2-xx: Coding in R
-**Instructions**. Assignment instructions, and grading information, 
-are available in this file: [analysis.R](analysis.R).
-
-**Eight assignment parts**. The file [analysis.R](analysis.R) consists of eight parts.
-
-* Parts 1-6 require you to code in R.
-* Part 7 prompts you to critically think about the Count Love dataset.
-* Part 8 prompts you to consider your learning.
+## 2. Coding in R: Parts 1-6
+**Instructions**. Assignment instructions and prompts are in this file: [analysis.R](analysis.R).
 
 **Coding and reflection prompts**. You will find two kinds of prompts in [analysis.R](analysis.R):
 
 * *Coding prompts*, which prompt you to write R code in [analysis.R](analysis.R).
-* *Reflection prompts*, which prompt you think. You will write your responses below, 
-in this file (`README.md`).
+* *Reflection prompts*, which prompt you to think and write in English below, in this file (`README.md`).
 
 **Formatting Your Responses and Reflections**.
 
-* When formatting your written
-responses and reflections below, please *retain* all
+* When formatting your written responses and reflections below, please *retain* all
 reflection prompt IDs (e.g., R1a, R2a, etc.).
 * Fill in the elipses (...) with your own words. 
 * Remove expected word counts.
 * To write clearly, use markdown code appropriately (e.g., **bold**, _italics_, and `code`). As appropriate, include images, links, and so forth.
 
 **Getting started**. To get started, we suggest that you open [analysis.R](analysis.R) 
-and this file in RStudio.
-
-Key point: In [analysis.R](analysis.R), write R code; in this file below,
-write in English.
+and this file (`README.md`) in RStudio.
 
 **Questions?** As always, please post on Teams or ask your Instructor or Teaching Assistant.
 
@@ -81,7 +69,7 @@ write in English.
 
 (_Updated: October 2022, Your Teaching Team_)
 
-## Critical Analysis & Reflection: After You Code
+## 3. Critical Analysis & Reflection: After You Code
 
 In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways that data scientists can challenge power and take action:
 > Taking action can itself take many forms, and in this chapter we offer four starting points:  
