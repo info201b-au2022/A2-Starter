@@ -231,7 +231,7 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 #                                         Note 10.
 #     *R3b: REFLECTION:* You have applied your function to an entire vector 
-#     *at once* with `sapply()`. Do you tink this is *AMAZING*? Why not? Briefly comment.
+#     *at once* with `sapply()`. Do you think this is *AMAZING*? Why not? Briefly comment.
 
 # 3l: Create a summary table by passing your `states` variable to the
 #    `table()` function and by storing the result in the variable `state_table`.
@@ -387,14 +387,14 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 # match the `purpose` should be returned.
 # 
 # FUNCTION #2: filter_and_report() 
-# filter_and_report() takes three arguments: 
+# filter_and_report() takes two arguments: 
 #     purpose             A string for the purpose of the protest (e.g., "Environment")
 #     position_taken      A string for the position taken (e.g., "Against noise")
 #                         The default value should be NULL 
 #                           
 # This function should do two things:(1) It should call `filter_positions()`,
-# to create a sub-set of protests; and (2) It should call `format_doc()`, 
-# to create the report.
+# to create a sub-set of protests, stored in a dataframe; and (2) It should 
+# call `format_doc()`, to create the report.
 # 
 # CODING PROMPT 
 # (1) Write the two functions (1 and 2), just described 
@@ -475,4 +475,7 @@ write_report <- function(md_doc, fname="~/Documents/info201/reports/report.md") 
 
 #                                         Note 18.
 # 6c: Demonstrate that your two functions, filter_protests() and 
-#    and filter_and_report(), work correctly. Comment on your tests.
+#    and filter_and_report(), work correctly. Comment on your tests. 
+#    For example, do your functions have limitations? Or, do they 
+#    work perfectly? If so, how do you know> Do think these two 
+#    functions are useful? What might you do next if you had more time?

@@ -20,7 +20,7 @@ By completing the assignment, you will develop or skills for:
 
 # 1. Critical Analysis & Reflection: Before You Code
 
-Before diving into this (or any) dataset, it's important to know where the data came from, and it's important to have or to seek out _domain familiarity_ — that is, knowledge about the subject/topic of the dataset. (We don't want to be "strangers in the dataset," as Catherine D'Ignazio and Lauren Klein describe it.) To get more familiar, we are going to begin by doing some background reading.
+Before diving into this (or any) dataset, it's important to know where the data came from, and it's important to have or to seek out _domain familiarity_ — that is, knowledge about the topic of the dataset. Sometimes the topic is very narrow; more often it is expansive, as in the case of CountLove. We don't want to be "strangers in the dataset," as Catherine D'Ignazio and Lauren Klein describe it. To get more familiar, we are going to begin by doing some background reading.
 
 **Note:** Please write your answers below under the heading "Your Responses and Reflections."
 
@@ -38,9 +38,9 @@ Next, we're going to reflect about who collected this data, and what's actually 
 
 **(R1f)** How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? 
 
-**(R1g)** What are two central values of Count Love? Name and breifly describe them.
+**(R1g)** What are two central values of Count Love? Name and briefly describe them. (See the Envisioning Cards for a defintion of "value".)
 
-**(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder? 
+**(R1h)** Name and briefly describe one direct stakeholder and one indirect stakeholder (See the Envisioning Cards)? 
 
 # 2. Coding in R: Parts 1-6
 **Instructions**. Assignment instructions and prompts are in this file: [analysis.R](analysis.R).
