@@ -1,4 +1,4 @@
-# Assignment 1: Protests
+# Assignment 2: Protests
 In recent years the United States has experienced a surge of protests, in support of Black Lives Matter, gender equity, and many other social or political issues.
 
 In this assignment, you will work with data from [Count Love](https://countlove.org/), data that is ocassionally [cited](https://www.nytimes.com/2020/08/28/us/black-lives-matter-protest.html) by the _New York Times_ when reporting on US demonstrations.
